@@ -11,7 +11,7 @@ def myPosition(x, y):
 pensize(2)
 
 def uuu():
-    fillcolor('#ffec40')
+    fillcolor('#ff641a')
     begin_fill()
     right(-40)
     circle(-100,40)
@@ -111,7 +111,7 @@ def uuu():
 def chandra():
     myPosition(70,50)
     pensize(2)
-    fillcolor('#fcc6a0')
+    fillcolor('#ff641a')
     begin_fill()
     right(145)
     circle(180,80)
@@ -127,7 +127,7 @@ def chandra():
 def bindu():
     myPosition(180,100)
     pensize(2)
-    fillcolor('#fcc6a0')
+    fillcolor('#ff641a')
     begin_fill()
     right(180)
     forward(40)
@@ -167,7 +167,7 @@ def shadeBindu():
     end_fill()
     
 def shadeChandra():
-    fillcolor('#bcbec5')
+    fillcolor('#8f8888')
     begin_fill()
     myPosition(290,77)
     #circle(2)
@@ -195,6 +195,7 @@ def shadeUuu():
     end_fill()
     
     myPosition(50,-30)
+    fillcolor('#8f8888')
     begin_fill()
     #circle(2)
     left(-80)
@@ -204,11 +205,12 @@ def shadeUuu():
     left(160)
     circle(45,30)
     left(15.5)
-    circle(60,60)
-    circle(20,100)
+    circle(65,60)
+    circle(18,100)
     end_fill()
     
     myPosition(18,-68)
+    fillcolor('#bcbec5')
     #circle(2)
     begin_fill()
     left(20)
@@ -223,6 +225,7 @@ def shadeUuu():
     end_fill()
     
     myPosition(38,-168)
+    fillcolor('#8f8888')
     begin_fill()
     right(170)
     circle(-80, 40)
@@ -244,6 +247,7 @@ def shadeUuu():
     #circle(2)
     
     myPosition(-192,-94)
+    fillcolor('#bcbec5')
     begin_fill()
     left(129)
     forward(16)
@@ -257,6 +261,7 @@ def shadeUuu():
     #circle(2)
     
     myPosition(95,-110)
+    fillcolor('#8f8888')
     begin_fill()
     left(205)
     forward(20)
@@ -270,6 +275,7 @@ def shadeUuu():
     #circle(4)
     
     myPosition(220,-114)
+    fillcolor('#8f8888')
     begin_fill()
     right(160)
     circle(-25, 120)
@@ -280,29 +286,20 @@ def shadeUuu():
     left(5)
     circle(80,70)
     right(10)
+    pensize(4)
     circle(90, 30)
+    pensize(2)
     right(10)
     circle(22, 150)
     end_fill()
-    circle(6)
+    #circle(6)
     
+    myPosition(-220,-94)
+    pensize(8)
+    left(50)
+    circle(300)
     
-    
-def temp():
-    fillcolor('black')
-    begin_fill()
-
-    pensize(2)
-    right(170)
-    circle(-100,165)
-    right(78)
-    forward(26)
-    right(87)
-    forward(55)
-    circle(45,60)
-    right(5)
-    circle(100,85)
-    end_fill()
+  
 
 #temp()
 uuu()
